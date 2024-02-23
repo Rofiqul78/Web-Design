@@ -1,0 +1,22 @@
+
+1.  HTML কি?
+Answer:- Full form of HTML is HyperText Markup Language. HTML is a markup language used to create and design webpage. 
+
+2.  heading টাগ কত প্রকার 
+Answer:- 6 types (h1,h2,h3,h4,h5,h6)
+
+3.  HTML attribute কি ?
+Answer:- HTML attribute is words that is written with an HTML tag and affects the functionality of the HTML tag and webpage.
+
+4.  HTML id এবং class এর পার্থক্য। 
+Answer:- HTML id is uniquely change/affect specific element of an web page, but HTML class change several element of an web page at the same time.
+same id can be used one time but same class can be used more than one time.
+
+5.  CSS কত প্রকার বা কত ভাবে লিখা যায়
+ Answer:-3 types-inline, internal & External.
+
+6.  CSS ar সিনট্যাক্স(CSS Syntax) কি? 
+Answer:-CSS syntax is rules/method of writing style code.
+
+7.  margin এবং padding এর মধ্যে পার্থক্য কি? 
+Answer:-margin create space outside an element (e.g. border/textbox etc) and padding create space outside an element (e.g. border/textbox etc).

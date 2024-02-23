@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" class="stylesheet">
+
+    <!-- fontawsome link -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+    .icon {            
+        width: 30px;
+        height: 30px;
+        fill: green;
+    }
+  
+
+    /* Define the animation keyframes */
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+}
+  
+    /* Apply the animation to the icons */
+    .icon:hover {
+        animation: spin 2s linear infinite;
+    }
+
+    .test{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;  
+    }
+    .test2{
+        padding: 40px; 
+    }
+    .icon{
+        margin-right: 40px;
+    }
+    p{
+        font-size: 25px;
+        font-family:serif;
+        font-style: italic;
+        font-weight: 500;
+        color: green;
+    }
+</style>
+</head>
+
+<body>
+    
+    <div class="container test2">
+        <h1 style="color:green">icons with animation && font styling</h1>
+        <!-- Use SVG icons from Font Awesome -->
+        <div class="test">
+                
+                <div class="icon">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="green" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg> 
+                </div> 
+
+                <div class="icon">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="green" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zm384.51 339.9h-92.68V300.6c0-35.3-12.59-59.4-44.28-59.4-24.16 0-38.55 16.3-44.88 32.1-2.31 5.6-2.91 13.4-2.91 21.2v154.4h-92.78s1.24-250.8 0-276.8h92.78v39.3c-0.18 0.29-0.4 0.58-0.58 0.86h0.58v-0.86c12.32-18.9 34.32-45.9 83.8-45.9 61.19 0 107.1 39.9 107.1 125.9v161.5z"></path></svg>
+                </div> 
+                <div class="icon">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="green" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.2-4.4c-.7 2 1.3 4 4.1 4.7 2.8.7 5.6-.3 6.2-2.3.7-2-1.3-4-4.1-4.7-2.8-.7-5.6.3-6.2 2.3zM245.6 8C106.1 8 0 113.3 0 252.4c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.5-.3 83.6 0 6.5 4.4 14.4 17.3 12.1C428.2 463.1 496 365.9 496 252.4c0-139.2-102.7-244.4-250.4-244.4zm97.2 312.3c-1.3 1.3-2.9 2-5.2 2.6-2.6.3-4.4-.3-6.2-2-1.3-1.3-2.6-2.6-3.3-4.4-.7-1.6-.7-3.3 0-5.2.7-1.6 2-2.9 3.3-4.4 1.6-1.3 3.6-2.6 5.9-2.6 2.3 0 4.4.7 6.2 2.6 1.6 1.3 2.6 3.3 3.3 5.2.7 1.6.7 3.6-.3 5.2zm7.6-13.1c-.7 2 1.3 4 4.1 4.7 2.8.7 5.6-.3 6.2-2.3.7-2-1.3-4-4.1-4.7-2.8-.7-5.6.3-6.2 2.3zm35.6 3.6c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-4.4-13.8c-.7 2 1.3 4 4.1 4.7 2.8.7 5.6-.3 6.2-2.3.7-2-1.3-4-4.1-4.7-2.8-.7-5.6.3-6.2 2.3z"></path></svg>
+                </div> <br><br><br><br>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium et incidunt ad, non dolor labore quos saepe nesciunt! Repellat esse doloremque omnis ipsa nam. Itaque velit a dolores voluptatibus enim vel rerum obcaecati ea dolorem hic ratione perferendis alias porro quo veniam, accusamus doloremque odio. Praesentium unde excepturi doloribus itaque repellendus, ipsam sequi labore a facere eligendi recusandae et voluptas laudantium at quidem molestiae quis, quas aut. Quidem iusto suscipit repellendus eum eligendi amet fugiat possimus nihil fugit, ipsa facilis magnam voluptatum eaque sapiente ut autem saepe laboriosam voluptatem voluptates ullam vel. Minus officiis voluptatum quas illo a omnis eaque amet, tempore, optio pariatur iste nobis laboriosam possimus, quo deleniti odio id animi sit. Quasi nulla magnam voluptatum assumenda veniam autem fugiat ex cum? Eum at amet pariatur! Blanditiis placeat labore enim qui mollitia, magni quo sed consequuntur iusto voluptas numquam, ratione nobis, vel asperiores similique reprehenderit omnis perferendis incidunt error! Aliquam alias accusantium odio dolor doloremque mollitia dolores explicabo minus necessitatibus! Iure illum officia omnis, numquam quas porro quam eligendi quis odit. Consectetur esse obcaecati cum, non necessitatibus autem nemo pariatur delectus at tenetur ab tempora facere et porro. Quam assumenda unde molestias, nostrum repudiandae eos aspernatur vel voluptas?</p>
+        </div>
+        
+    </div>	
+   
+<script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <script>
+        
+    </script>  
+
+</body>
+</html>

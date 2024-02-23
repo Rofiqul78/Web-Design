@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display, Max Width, Min Width, Position</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            min-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .item {
+            flex: 1;
+            max-width: 300px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .item:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .item h2 {
+            margin-top: 0;
+        }
+
+        .item p {
+            margin-bottom: 0;
+        }
+
+        .positioned {
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" style="background-color: #ffcccc;">
+            <img src="./images/nature1.jpg" alt="Image 1" class="image">
+            <h2>Item 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="item" style="background-color: #ccffcc;">
+            <img src="./images/nature1.jpg" alt="Image 2" class="image">
+            <h2>Item 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="item" style="background-color: #ccccff;">
+            <img src="./images/nature1.jpg" alt="Image 3" class="image">
+            <h2>Item 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div class="container positioned">
+        <div class="item" style="background-color: #ffffcc;">
+            <img src="./images/nature1.jpg" alt="Positioned Image" class="image">
+            <h2>Positioned Item</h2>
+            <p>This item is positioned relatively.</p>
+        </div>
+    </div>
+</body>
+</html>

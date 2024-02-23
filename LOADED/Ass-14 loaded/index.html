@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox Layout</title>
+    <style>
+      /* Use flexbox to create a responsive layout */
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      /* Style the header */
+      .header {
+        color: chocolate;
+        background-color: lightblue;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* Style the navbar */
+      .navbar {
+        padding: 20px;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+      }
+      a{
+        text-decoration: none;
+        font-size: 25px;
+      }
+
+      /* Style the main section */
+      .main {
+        background-color: lightyellow;
+        display: flex;
+        flex: 1;
+        font-size: 25px;
+        text-align: center;
+        
+       
+      }
+
+      /* Style the left sidebar */
+      .left-sidebar {
+        background-color: lightpink;
+        width: 20%;
+        font-size: 25px;
+        text-align: center;
+        
+        
+      }
+
+      /* Style the right sidebar */
+      .right-sidebar {
+        background-color: lightgray;
+        width: 20%;
+        font-size: 25px;
+        text-align: center;
+        
+        
+      }
+
+      /* Style the main body */
+      .body {
+        background-color: white;
+        flex: 1;
+        padding: 20px;
+      }
+
+      /* Style the footer */
+      .footer {
+        background-color: lightcoral;
+        padding: 5px;
+        text-align: center;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Header: Flexbox Layout</h1>
+        </div>
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <a href="#">Navbar</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Main section -->
+        <div class="main">
+            <!-- Left sidebar -->
+            <div class="left-sidebar">
+            <p>Left sidebar</p>
+            </div>
+            <!-- Main body -->
+            <div class="body">
+            <p>Main body</p>
+            </div>
+            <!-- Right sidebar -->
+            <div class="right-sidebar">
+            <p>Right sidebar</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+  </body>
+</html>

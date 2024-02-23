@@ -1,0 +1,12 @@
+.test{
+    width: 99.9%;
+    margin: 0 auto;
+}
+.row > .test1{
+    padding: 0px;
+}
+
+.con{
+    width: 90%;
+    margin: 0 auto;
+}

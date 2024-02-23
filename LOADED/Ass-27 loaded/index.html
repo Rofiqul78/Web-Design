@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css" class="stylesheet">
+
+<style>
+   
+
+</style>
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-color">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" id="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog Posts </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+     <!-- Blog Post Section -->
+<div class="container row blogs">
+    <div class="col-md-7">
+        <h4>Todays Blog Posts</h4>
+      <div id="blog-posts">
+          <!-- Posts will be dynamically added here -->
+      </div>
+    </div>
+   
+
+    <!-- New Post Form -->
+    <div class="col-md-4 input-form">
+        <form id="new-post-form">
+            <div>
+                <h2>Share Your Thoughts</h2>
+            </div>
+            <div>
+                <p><label for="post-title">Title:</label></p>
+                <input type="text" id="post-title" required>
+            </div>
+            <div>
+                <p><label for="post-content">Content:</label></p>
+                <textarea id="post-content" required></textarea>
+            </div>
+            <button onclick="Function()" type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+
+    <script>
+        // Get the button and the menu items elements
+        let button = document.getElementById("navbar-toggler");
+        let menu = document.getElementById("navbar-menu");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+        menu.classList.toggle("show"); // Toggle the "show" class to the menu items
+        });
+
+      
+
+      // Array to store blog posts
+      let posts = [];
+
+
+      // Function to display all blog posts
+      function displayPosts() {
+        const blogPosts = document.getElementById('blog-posts');
+        blogPosts.innerHTML = '';
+        posts.forEach(post => {
+            const postElement = document.createElement('div');
+            postElement.innerHTML = `
+                <h3>${post.title}</h3>
+                <p>${post.content}</p>
+            `;
+            blogPosts.appendChild(postElement);
+        });
+    }
+
+      // Function to add new post
+      function addNewPost(event) {
+        event.preventDefault();
+        const newPostForm = document.getElementById('new-post-form');
+        const title = newPostForm['post-title'].value;
+        const content = newPostForm['post-content'].value;
+        posts.push({ title, content });
+        displayPosts();
+        newPostForm.reset();
+    }
+
+      // Event listener for form submission
+      document.getElementById('new-post-form').addEventListener('submit', addNewPost);
+
+      // Initial display of posts
+      displayPosts();
+
+      //alert
+      document.getElementById("btn").addEventListener("click", function() {
+        alert("thanks for sharing your thoughts!!");
+      });
+      
+  </script>  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

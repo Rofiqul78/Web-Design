@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+       .parent{
+        margin:40px;
+        margin-top: 40px !important;
+        width:80%;
+        height:80vh;
+        background-color:lightcoral;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+       }
+        
+        .test:hover{
+          color: blue;
+        }
+
+        div:hover {
+          background-color:chocolate;
+        }
+        .parent > p:first-child b {
+          color: blue;
+        } 
+        .parent > p:nth-child(2) {
+          color:red;
+        } 
+        .parent > a:last-child{
+          color:green !important;
+        } 
+        .btn{
+          font-size: 20px;
+          font-weight: 500;
+          height: 40px;
+          width:100px;
+          color:black;
+          background-color:blueviolet;
+          border: 2px solid blueviolet;
+          border-radius: 15px;
+        }
+        .btn:hover{
+          font-size: 20px;
+          font-weight: 500;
+          height: 50px;
+          width:120px;
+          color:black;
+          background-color:green;
+          border: 2px solid blueviolet;
+          border-radius: 15px;
+        }
+    </style>
+</head>
+<h1 style="color:red">Applying CSS Pseudo-Classes</h1>
+<body>
+    <div class="parent">
+          <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Ipsa, aspernatur?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, aspernatur?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, aspernatur?</p>
+          <a class="test" href="https://eshikhon.com"> Eshikhon</a><br>
+          <button class="btn">Test</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+.bg-color, body{
+    background-color:rgb(189, 135, 35);
+    font-family:montserrat;
+}
+#navbar-menu{
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    color: white;
+}
+h4{
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    color:darkblue;
+    margin-bottom: 30px;
+}
+#navbar-toggler{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+}
+#blog-posts{
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+#new-post-form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+
+    
+}
+
+.input-form{
+    height:fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding-top: 20px;
+
+}
+
+#post-title{
+    width:200px;
+    height:30px;
+    border: 0px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+#post-content{
+    width:200px;
+    height:30px;
+    border: 0px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: left;
+}
+
+.btn{
+    font-size: 20px; 
+    font-weight:500;
+    border-radius: 5px;
+    color:white;
+    background-color:coral;
+    border-color: coral;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.DH-btn{
+    font-size: 20px; 
+    font-weight:500;
+    border-radius: 5px;
+    color:white;
+    background-color:coral;
+    border-color: coral;
+    width: 170px;
+    height: 40px;
+    justify-content: center;
+    align-items: center !important;
+    margin-bottom: 5px;
+    
+    
+}
+p{
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.test{
+    margin-bottom: -18px;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+.navbar{
+    font-size: 20px;
+    font-weight: 500;
+    color:black;
+    margin-bottom: 30px;
+}
+.col-md-7{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.container{
+    width:90.00%;
+    margin:0 auto;
+    display:flex;
+}   

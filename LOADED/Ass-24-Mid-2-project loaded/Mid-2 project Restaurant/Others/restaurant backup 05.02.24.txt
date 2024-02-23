@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Restaurant Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Restaurant Website</title>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+	
+	</style>  
+      
+</head>
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#">Navbar</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+	  <ul class="navbar-nav">
+		<li class="nav-item active">
+		  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">Features</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">Pricing</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link disabled" href="#">Disabled</a>
+		</li>
+	  </ul>
+	</div>
+  </nav>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-nav-center bg-white">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	<div class="collapse navbar-collapse bg-white mx-auto test-center d-flex justify-content-center" id="navbarNavAltMarkup">
+		<div class="navbar-nav navbar">
+		<a class="nav-item nav-link active" href="#">HOME</a>
+		<a class="nav-item nav-link" href="#">LANDING</a>
+		<a class="nav-item nav-link" href="#">ABOUT</a>
+		<a class="nav-item nav-link" href="#">MENU</a>
+		<a class="nav-item nav-link" href="#">TEAM</a>
+		<a class="nav-item nav-link" href="#">CONTACT</a>
+	</div>
+</nav> 
+
+<body >
+
+
+
+
+
+<div class="container-fluid custom-image11">
+	<!-- first-section -->
+	<div class="sec-11-circle text-with-gap">
+		<p>40%</p>
+		<p class="test-sec1">BUSINESS</h6>
+		<p class="test-sec1">LUNCH</h6>
+	</div>	
+	<div class="sec-12">
+		<h6>NEW RESTAURANT</h6>
+	</div>		
+	<div class="sec-13 text-with-gap">
+		<p>Where every</p>
+		<p>ingredient</p>
+		<p>tells a story</p>
+	</div>		
+	<div class="sec-14 text-with-gap">
+		<h6><p>Image from <a style="color:yellowgreen" href="https://freepik.com">Freepik</a></p></h6>
+		<a class="btn btn-warning btn-2xl border-radius rounded-pill" style="color:white" href="#" role="button">READ MORE</a>
+	</div>		
+
+	<!-- Second-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail">
+			<img src="./images/image21.jpg" alt="" style="width:100%" class="b-radius image-size">
+			<p class="carousel-caption centered">FOOD SOURCING</p>
+		</div>
+		</div>
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail">
+			<img src="./images/image71.jpg" alt="" style="width:100%" class="b-radius image-size">
+			<p class="carousel-caption centered">MENU DEVELOPMENT</p>
+		</div>
+		</div>
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail">
+			<img src="./images/image23.jpg" alt="" style="width:100%" class="b-radius image-size">
+			<p class="carousel-caption centered">RESTAURANT</p>
+		</div>
+		</div>
+	</div>
+	
+	<!-- Third-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+		<div class="col-md-6 secthree">
+			<p style="font-size:50px;font-weight: bolder;"> $27</p>
+			<p style="font-size:20px;font-weight: bold;">BEEF WITH GINGER</p>
+			<p style="font-size:15px;font-weight:100;">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like.</p>
+			<h6><p>Image from <a style="color:yellowgreen" href="https://freepik.com">Freepik</a></p></h6>
+		</div>
+		<div class="col-md-5 rounded custom-image">
+			<div class="thumbnail">
+				<img src="./images/image31.jpg" alt="" style="width:100%" class="b-radius image-size2 image-position">
+			</div>
+		</div>
+	</div>
+
+	<!-- forth-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center gx-10 gap-5px">
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail mx-5">
+			<img src="./images/image41.jpg" alt="" class="b-radius image-position2 img">
+		</div>
+		</div>
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail mx-5">
+			<img src="./images/image42.jpg" alt="" class="b-radius image-position2 img">
+		</div>
+		</div> 
+		<div class="col-md-4 rounded custom-image">
+		<div class="thumbnail mx-5">
+			<img src="./images/image43.jpg" alt="" class="b-radius image-position2 img">
+		</div>
+		</div>
+	</div>
+
+	<!-- fifth-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+		
+		<div class="col-md-5 rounded custom-image">
+			<div class="thumbnail">
+				<img src="./images/image51.jpg" alt="" style="width:100%" class="b-radius image-size2 image-position3">
+			</div>
+		</div>
+		<div class="col-md-6 secfive">
+			<p style="font-size:50px;font-weight: bolder;"> $4</p>
+			<p style="font-size:20px;font-weight: bold;">CROISSANT WITH TOPPING</p>
+			<p style="font-size:15px;font-weight:100;">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too.</p>
+			<h6><p>Image from <a style="color:yellowgreen" href="https://freepik.com">Freepik</a></p></h6>
+		</div>
+	</div>
+
+	<!-- Sixth-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+		<div class="row Sec-six">
+			<p style="font-size:70px;font-weight: bolder;"> View Our Menu</p>
+			<p style="font-size:20px;font-weight: bold;">Sample text. Click to select the Text Element.Image from <a style="color:yellowgreen" href="https://freepik.com">Freepik</a></p>
+		</div>
+	</div>
+
+	<div class="container mx-25 my-5 mx-auto text-center d-flex flex-wrap justify-content-center gx-10 gap-5px">
+		<div class="row my-20">
+			<div class="col-md-5 rounded custom-image">
+			<div class="thumbnail mx-5">
+				<img src="./images/image61.jpg" alt="" class="b-radius image-position-sec-61 img-size-sec6">
+				<p class="sec-six-21text" style="font-size:20px;font-weight: bolder;"> HOT PIZZA</p>
+				<a class="sec-six-22btn btn btn-warning btn-2xl border-radius rounded-pill sec-six-3" style="color:yellowgreen" href="#" role="button">READ MORE</a>
+			</div>
+			</div>
+			<div class="col-md-5 rounded custom-image">
+				<div class="thumbnail mx-5">
+				<img src="./images/image62.jpg" alt="" class="b-radius image-position-sec-61 img-size-sec6">
+				<p class="sec-six-21text" style="font-size:20px;font-weight: bolder;"> SALADS</p>
+				<a class="sec-six-22btn btn btn-warning btn-2xl border-radius rounded-pill sec-six-3" style="color:yellowgreen" href="#" role="button">READ MORE</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-5 rounded custom-image">
+				<div class="thumbnail mx-5">
+				<img src="./images/image63.jpg" alt="" class="b-radius image-position-sec-62 img-size-sec6">
+				<p class="sec-six-31text" style="font-size:20px;font-weight: bolder;"> DESSERT</p>
+				<a class="sec-six-32btn btn btn-warning btn-2xl border-radius rounded-pill" style="color:yellowgreen" href="#" role="button">READ MORE</a>
+				</div>
+			</div>
+			<div class="col-md-5 rounded custom-image">
+				<div class="thumbnail mx-5">
+				<img src="./images/image64.jpg" alt="" class="b-radius image-position-sec-62 img-size-sec6">
+				<p class="sec-six-31text" style="font-size:20px;font-weight: bolder;"> DRINKS</p>
+				<a class="sec-six-32btn btn btn-warning btn-2xl border-radius rounded-pill" style="color:yellowgreen" href="#" role="button">READ MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- Seventh-section-->
+
+	<div class="row container mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+		<div class="col-md-6 sec-7">
+			<p style="font-size:50px;font-weight: bolder;"> $14</p>
+			<p style="font-size:20px;font-weight: bold;">SALAD WITH CHICKEN</p>
+			<p style="font-size:15px;font-weight:100;">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like.</p>
+			<h6><p>Image from <a style="color:yellowgreen" href="https://freepik.com">Freepik</a></p></h6>
+		</div>
+		<div class="col-md-5 rounded custom-image">
+			<div class="thumbnail">
+				<img src="./images/image71.jpg" alt="" style="width:100%" class="b-radius image-size2 image-position-7">
+			</div>
+		</div>
+	</div>
+
+	<!-- section-8 -->
+
+	<div class="container-fluid bg-image81">
+		<div class="sec-81-circle text-with-gap">
+			<p>40%</p>
+			<p class="test-sec1">BUSINESS</h6>
+			<p class="test-sec1">LUNCH</h6>
+		</div>	
+
+		<div class="row mx-25 my-5 mx-auto text-center d-flex justify-content-center">
+			<div class="row Sec-82">
+				<p style="font-size:70px;font-weight: bolder;"> Keep up to date with us</p>
+				<p style="font-size:20px;font-weight: bold;">Sample text. Click to select the Text Element.</p>
+			</div>
+			<div>
+				<input type="text" class="form-control rounded-pill w-40" placeholder="">
+				<a class="btn btn-warning btn-2xl border-radius rounded-pill" style="color:white" href="#" role="button">SUBMIT</a>
+			</div>	
+		</div>	
+	</div>
+</div>
+	
+<!-- Optional JavaScript -->
+<!-- jQuery, Popper and Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #1a1a1a !important;
+  }
+  
+/* Custom CSS for setting background image */
+.custom-image11 {
+    background-image: url('./images/image11.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center center; /* Center the image */
+    height: 790px; /* Set a fixed height for the container */
+    color: white; /* Set text color to white for better readability */
+    text-align: center; /* Center-align text within the container */
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    position:relative;
+}
+
+.custom-image {
+    color: white; /* Set text color to white for better readability */
+    text-align: center; /* Center-align text within the container */
+    align-items: center;
+    justify-content:center;
+    position:relative;
+    margin:0 auto;
+    object-fit:contain;
+    flex-direction:row;
+    margin-top: 20px;
+}
+
+.navbar-nav-center {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 5px;
+    margin-left:0px;
+    margin-right:400x;
+    flex:justify-center;
+    
+}
+bg-white{
+    background-color: white;
+}    
+.text-with-gap {
+    line-height: 40px; /* You can adjust this value to set the desired line gap */
+}
+.sec-11-circle{
+    background: #99e54d;
+    color: black;
+    border-radius: 100px;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    left: 200px; 
+     
+}
+
+.sec-12{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    position:relative;
+    font-size: 150px !important;
+    font-weight: bold;
+    top: -60px;
+    left: 200px; 
+}
+.sec-13{
+    color: white;
+    justify-content: center;
+    align-items:left;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    left: 60px; 
+} 
+    
+.sec-14{
+    color: white;
+    justify-content: center;
+    align-items:left;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 5px;
+    font-weight:100;
+    position:relative;
+    top: 230px;
+    left:-300px; 
+} 
+
+a{
+    text-decoration: none !important;
+    margin-right: 20px;
+}
+
+.border-radius{
+    border-radius: 350px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px ;
+    font-weight: bold;
+}
+.test-sec1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1px;
+}
+.second-sec{
+    margin-top: 20px;
+    margin-top: 40px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+   
+  }
+.b-radius{
+    border-radius: 35px !important;
+    
+  }
+  
+.carousel-caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.image-size{
+    width: 110%;
+    height: 350px;
+  }
+
+.image-size2{
+  width: 100%;
+  height: 500px;
+}
+.img{
+    width:95.50%;
+    height:350px;
+    margin:0 auto;
+}
+
+.secthree{
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
+    margin-right: 50px;
+    padding-top:200px;
+    padding-right: 40px;
+    position: absolute;
+    top: 100px;
+    left: 20px; 
+
+}
+.secfive{
+    text-align: left;
+    position: absolute;
+    top: 1430px;
+    left: 520px; 
+
+}
+
+.Sec-six{
+    text-align:center;
+    position: absolute;
+    top: 1800px;
+    margin-bottom: 20px;
+    
+}
+
+.image-position{
+    position: absolute;
+    top: 120px;
+    left: 500px; 
+}
+.image-position2{
+    position: absolute;
+    top: 800px;
+    left: 0px; 
+    margin-right:20px;
+}
+.image-position3{
+    position: absolute;
+    top: 1200px;
+    left: -300px; 
+    margin-right:20px;
+}
+.img-size-sec6{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+    
+.image-position-sec-61{
+    justify-content:space-between !important;
+    align-items: center;
+    position: relative;
+    top: 2100px;
+    margin:0 auto;
+}
+.image-position-sec-62{
+    justify-content:space-between !important;
+    align-items: center;
+    position: relative;
+    top: 2200px;
+    margin:0 auto;
+}
+.sec-six-21text{
+    text-align:center;
+    position: relative;
+    top: 2130px;
+    margin-bottom: 20px;
+}
+.sec-six-22btn{
+    text-align:center;
+    align-items: center;
+    position: relative;
+    top: 2140px;
+    margin-bottom: 20px;
+}
+.sec-six-31text{
+    text-align:center;
+    position: relative;
+    top: 2230px;
+    margin-bottom: 20px;
+}
+
+.sec-six-32btn{
+    text-align:center;
+    position: relative;
+    top: 2240px;
+    margin-bottom: 20px;
+}
+.sec-7{
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
+    margin-right: 50px;
+    padding-top:200px;
+    padding-right: 40px;
+    position: relative;
+    top: 2400px;
+    left: 20px;   
+}
+
+.image-position-7{
+    justify-content:space-between !important;
+    align-items:end;
+    position: relative;
+    top: 2300px;
+    margin:0 auto;
+}
+
+.bg-image81{
+    background-image: url('./images/image81.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center center; /* Center the image */
+    height: 790px; /* Set a fixed height for the container */
+    color: white; /* Set text color to white for better readability */
+    text-align: center; /* Center-align text within the container */
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    position:relative;
+    top:2400px;
+}
+
+.sec-81-circle{
+    background: #99e54d;
+    color: black;
+    border-radius: 100px;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 120px; 
+     
+     
+}
+.form-control{
+    width:150%;
+}
+.sec-82{
+    text-align:center;
+    position: absolute;
+    top: 1800px;
+    margin-bottom: 20px;
+}

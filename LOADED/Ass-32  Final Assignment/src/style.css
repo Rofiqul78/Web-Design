@@ -1,0 +1,182 @@
+body {
+    font-family: Montserrat;
+}
+
+
+
+                               /*======================= section-1======================== */
+
+
+.bg-image1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/river-flowing-through-forest-generative-al2-min.jpg");
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center center; /* Center the image */
+    height: 790px; /* Set a fixed height for the container */
+    color: white; /* Set text color to white for better readability */
+    text-align: center; 
+
+}
+
+/*===== Animation=====*/
+
+.text-container {
+  opacity: 0;
+  animation: fade-in 3s forwards;
+}
+
+.sequential-line {
+  opacity: 0;
+  animation-iteration-count: infinite;
+}
+
+.sequential-line:nth-child(1) {
+  animation: reveal 0.5s 1s forwards;
+}
+
+.sequential-line:nth-child(2) {
+  animation: reveal 0.5s 2s forwards;
+}
+
+.sequential-line:nth-child(3) {
+  animation: reveal 0.5s 3s forwards;
+}
+
+.sequential-line:nth-child(4) {
+    animation: reveal 0.5s 4s forwards;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+                          /*======================= section-2======================== */
+
+.img{
+  padding:30px;
+  width:120px;
+  height:120px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  justify-content: center !important;
+  align-items: center;
+  margin: 0 auto;
+} 
+
+/*===== Animation=====*/
+
+/* Add a class to trigger the animation on scroll */
+.animated-div {
+  animation: slide-up 5s ease-out forwards;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  animation-iteration-count: infinite;
+}
+
+/* Apply the animation when the element is scrolled into view */
+.animated-div.active {
+  transform: translateY(-100px) !important;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+  }
+  to {
+    transform: translateY(-100px);
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+                          /*======================= section-3======================== */
+
+
+	 /* Container holding the image and the text */
+	 .container {
+		position: relative;
+		overflow: hidden; /* Hide overflowing text */
+	}
+	/* Image styling */
+	.container img {
+		transition: transform 0.3s ease; /* Add smooth zoom effect */
+	}
+	/* Text overlay styling */
+	.text-overlay {
+
+		position: absolute;
+		bottom:0;
+		left: 0;
+		background-color: transparent;
+		padding: 8px;
+		width: 100%;
+		transform: translateY(100%); /* Initially hidden */
+		transition: transform 0.3s ease; /* Add smooth transition */
+	}
+	/* Hover effect: Show text and zoom image */
+	.container:hover img {
+		transform: scale(1.2); /* Zoom in on hover */
+		
+	}
+	.container:hover .text-overlay {
+		transform: translateY(0); /* Show text on hover */
+    
+	}
+  
+  /*======================= section-4======================== */
+
+    .moving-text1 {
+        animation: moveLeftToRight 5s infinite;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes moveLeftToRight {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    /*======================= section-5======================== */
+
+    /*======================= section-6======================== */
+  
+    .bg-image2 {
+      background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/5.jpg");
+      background-size: cover; /* Ensure the image covers the entire container */
+      background-position: center center; /* Center the image */
+      height: 790px; /* Set a fixed height for the container */
+      color: white; /* Set text color to white for better readability */
+      text-align: center; 
+  
+  }
+
+
+  
+
+    

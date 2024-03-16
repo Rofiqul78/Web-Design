@@ -175,8 +175,18 @@ body {
       text-align: center; 
   
   }
-
-
+.text-left{
+  text-align: left;
+}
+.input1{
+  display:inline-block;
+  margin-bottom: 20px;
+  width: 110px;
+  height:50px;
+}
+ form{
+  display: inline-block;
+ }
   
 
     

@@ -392,9 +392,9 @@
 <!--------------------------section-6 ----------------------------->
 
 <div class="bg-image2 pt-[80px] flex" style="margin-top: 250px;">
-    <div class="w-[50px]" style="width: 30%; margin-left: 80px;">
+    <div class="pt-[190px] w-[50px]" style="width: 30%; margin-left: 80px; margin-right: 80px;">
         <div>
-            <p class="pt-[190px] text-[60px] text-center font-bold justify-items-center">
+            <p class=" text-[60px] text-center font-bold justify-items-center">
                 Contact Us
             </p>
         </div>
@@ -416,32 +416,36 @@
         </div>
     </div>
 
-    <div>
+    <div class="pt-[190px] w-[50px] justify-center" style="width: 30%;">
         <form action=""method=""post>
-            <div>
-                <label for="email" class="">Email</label>
-                <input type="email" placeholder="Enter your Name" name="name" class="" required="">
+            <div class="flex">
+                <div class="text-left">
+                    <label for="email" >Email</label> <br>
+                    <input type="email" placeholder="Enter a valid Email" name="email" class=" " style="margin-bottom:20px; margin-right:10px; width:200px; height:50px;  required=">
+                </div>
+                <div class="text-left">
+                    <label for="name" >Name</label><br>
+                    <input type="text" placeholder="Enter your name" name="name" class="" style="margin-bottom:20px; width:200px; height:50px; required=">
+                </div>
             </div>
 
-            <div>
-                <label for="email" class="">Name</label>
-                <input type="text" placeholder="Enter a valid email address" name="email" class="" required="">
-            </div>
-
-            <div>
-                <label for="email" class="">Address</label>
-                <input type="text" placeholder="Enter your address" name="address" class="" required="">
+            <div class="text-left">
+                <label for="email" class=" justify-self-start">Address</label>
+                <input type="text" placeholder="Enter your address" name="address" class="w-full h-[50px]" style="margin-bottom: 20px;  required=">
             </div>
             
-            <div>
+            <div class="text-left">
                 <label for="message" class="">Message</label>
-                <textarea placeholder="Enter your message" rows="4" cols="50" name="message" class="" required=""></textarea>
+                <textarea placeholder="Enter your message" rows="4" cols="50" name="message" class="" style="margin-bottom: 20px;  required="></textarea>
             </div>
 
             <div>
-                <a href="#" class="">Submit</a>
-                <input type="submit" value="submit" class="">
+                <button style="background-color: #a79770; margin-bottom: 20px;" input type="submit" value="submit" class="text-white text-[18px] font-medium py-2 px-4 rounded-full mr-[10px] w-full h-[50px]">
+                    SUBMIT
+                </button>
+            
             </div>
+
         </form>
     </div>
 </div>	

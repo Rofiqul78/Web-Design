@@ -170,7 +170,7 @@ body {
       background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/5.jpg");
       background-size: cover; /* Ensure the image covers the entire container */
       background-position: center center; /* Center the image */
-      height: 790px; /* Set a fixed height for the container */
+      height: 900px; /* Set a fixed height for the container */
       color: white; /* Set text color to white for better readability */
       text-align: center; 
   
@@ -188,5 +188,122 @@ body {
   display: inline-block;
  }
   
+
+/*================================================ MEDIA QUERY======================================== */
+
+
+/*================================================ Media query for small devices (mobile)======================================== */
+
+@media only screen and (min-width: 400px) {
+  /* Adjust font sizes and spacing for smaller screens */
+
+  /* Example: Adjust the width of the buttons in the first section */
+  .bg-image1 button {
+      padding: 10px 20px;
+  }
+
+  .animated-div {
+    width: 50%;
+}
+.card1{
+  margin-bottom: 200px;
+}
+  
+.card2{
+  margin-bottom: 50px;
+}
+
+.bg-image2 {
+  height: 1800px; 
+  
+}
+.respwidth{
+  width:100%;
+  justify-content: center;
+}
+.flex{
+  flex-direction: column;
+  justify-content: center;
+}
+.submitbutton{
+  width:200px;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/*================================================ Media query for medium screens======================================= */
+
+@media only screen and (min-width: 768px) {
+  /* Adjust font sizes and spacing for larger screens */
+  
+
+  /* Example: Adjust the width of the buttons in the first section for large screens */
+  .bg-image1 button {
+      padding: 15px 30px;
+  }
+  .animated-div {
+    width: 25%;
+  }
+
+  .card1{
+    margin-bottom: 200px;
+  }
+    
+  .card2{
+    margin-bottom: 50px;
+  }
+
+  .respwidth{
+    width:100%;
+    justify-content: center;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .submitbutton{
+    width:200px;
+    height:50px;
+  }
+  
+}
+
+    
+
+/*================================================ Media query for large screens======================================= */
+
+@media only screen and (min-width: 1024px) {
+  /* Adjust font sizes and spacing for larger screens */
+
+  /* Example: Adjust the width of the buttons in the first section for large screens */
+  .bg-image1 button {
+      padding: 15px 30px;
+  }
+  .animated-div {
+    width: 25%;
+  }
+
+  .card1{
+    margin-bottom: 200px;
+  }
+    
+  .card2{
+    margin-bottom: 50px;
+  }
+  .respwidth{
+    width:100%;
+    justify-content: center;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .submitbutton{
+    width:400px;
+    height:50px;
+  }
+}
 
     

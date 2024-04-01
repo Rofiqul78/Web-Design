@@ -1,0 +1,90 @@
+
+/* Applying CSS Pseudo-Classes */
+
+.flex-container {                     
+    display: flex;
+    background-color:lightcoral;
+  }
+
+  .parent{
+    margin:5px;
+    margin-top: 10px !important;
+    width:90%;
+    height:90vh;
+    background-color:lightcoral;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    }
+
+  .test1{
+    margin-right: 20px;
+  }
+  div:hover {
+    background-color:chocolate;
+  }
+  p b:first-child  {    /* Selects the First p b element in a list */
+    color: blue;
+  } 
+  p:nth-child(3) {    /* Selects the third element in a list */
+    color:darkgreen;
+  } 
+  a:nth-child(5) {
+    color:green !important;
+  } 
+  .btn{
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    width:80px;
+    color:black;
+    background-color: lightslategray;
+    border: 2px solid green;
+    border-radius: 15px;
+  }
+  .btn:hover{
+    font-size: 20px;
+    font-weight: 500;
+    height: 42px;
+    width:90px;
+    color:black;
+    background-color:green;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+  }
+  a.highlight:hover {
+    font-size: 23px;
+    text-decoration: none;
+  } 
+  .test2:hover{
+    color: blue;
+  }
+
+
+  /* Applying CSS Pseudo-elements */
+
+   p::after {                   /*any class can be used instead of p */
+    content: " - most Urgent";
+  }
+
+  p::before {
+    content: "Attention: ";
+  }
+
+  p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  p::first-line {
+    background-color: yellow;
+  }
+
+ li::marker {
+    color: green;
+    font-size: 40px;
+  }
+
+  ::selection {
+    color: white;
+    background:black;
+  }

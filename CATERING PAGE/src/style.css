@@ -28,7 +28,7 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden; /* Hide overflowing text */
+  overflow: hidden;      /* Hide overflowing text */
 }
 
 /* Text overlay styling */
@@ -54,6 +54,16 @@ html {
     display: flex;
     justify-items: center;
     align-items: center;
+    overflow: hidden;
+    
+
+  }
+  .text-justify{
+    text-align:center;
+  }
+
+  .image-justify{
+    justify-content:center;
   }
   
 }
@@ -71,6 +81,13 @@ html {
     display: flex;
     justify-items: center;
     align-items: center;
+    overflow: hidden;
+  }
+  .text-justify{
+    text-align: left;
+  }
+  .image-justify{
+    justify-content:right;
   }
 }
 
@@ -100,5 +117,13 @@ img{
   display: flex;
   justify-items: center;
   align-items: center;
+  overflow: hidden;
+}
+.text-justify{
+  text-align: left;
+}
+.image-justify{
+  justify-content:right;
+  
 }
 }

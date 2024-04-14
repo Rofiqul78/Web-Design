@@ -65,6 +65,11 @@ html {
   .image-justify{
     justify-content:center;
   }
+  .respwidth{
+    width:80%;
+    height: 300px;
+    overflow: hidden;
+  }
   
 }
 
@@ -88,6 +93,11 @@ html {
   }
   .image-justify{
     justify-content:right;
+  }
+  .respwidth{
+    width:24%;
+    height: 300px;
+    overflow: hidden;
   }
 }
 
@@ -125,5 +135,10 @@ img{
 .image-justify{
   justify-content:right;
   
+}
+.respwidth{
+  width:24%;
+  height: 300px;
+  overflow: hidden;
 }
 }
